@@ -54,8 +54,8 @@ The result is very satisfying but we are still far from the professional looking
 
 Before starting to modify our graph parameters I like to glance at an illustration on the Matplotlib official documentation that shows all the different part we are working with.
 
-![](img/10.png)
-Source: https://matplotlib.org/gallery/showcase/anatomy.html
+<center>![](img/10.png)</center>
+<center>Source: https://matplotlib.org/gallery/showcase/anatomy.html</center>
 
 From this point on all the lines of code will be added between the line defining the axes starting with “ax=” and the line used for plotting.  We will personalize all of the components showed on the documentation one by one to achieve an impressive technical chart.
 
