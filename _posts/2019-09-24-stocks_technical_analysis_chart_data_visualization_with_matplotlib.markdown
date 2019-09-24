@@ -19,7 +19,9 @@ The next step is to pick our beginning and ending dates for the chart and pull t
 With the data now available let’s add some columns to plot by calculating some common technical indicators used in technical analysis:
 
 -200 days moving average
+
 -MACD – Moveing average Convergence/ Divergence
+
 -RSI – Relative Strength Index
 
 Please note that the purpose of this blog is not to explain how this indicators are used, we are focusing on the technical aspect of building the chart. The following code will add the MVA7 and MVA200 columns to the pandas data frame:
