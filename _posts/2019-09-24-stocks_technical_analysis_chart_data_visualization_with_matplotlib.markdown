@@ -32,7 +32,7 @@ The following code will add the MACD column to the pandas data frame:
 
 ![](img/4.png)
 
-Since the moving averages are calculated based on the available data only, thy will have NaN values for the number of days prior to the first day they can be calculated for. To avoid having missing values while visualizing the data, let’s drop this NaN values before moving forward. 
+Since the moving averages are calculated based on the available data only, they will have NaN values for the number of days prior to the first day they can be calculated for. To avoid having missing values while visualizing the data, let’s drop this NaN values before moving forward. 
 
 ![](img/5.png)
 
