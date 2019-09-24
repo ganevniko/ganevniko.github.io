@@ -6,8 +6,10 @@ permalink:  stocks_technical_analysis_chart_data_visualization_with_matplotlib
 ---
 
 
-In this blog I will show you how to build a technical analysis chart from scratch using Matplotlib. The library is widely used for data visualizations but many might be unaware of how powerful it actually is and we will try to build a professionally looking technical analysis chart for stocks that replicates the quaity of charts you might see on some very modern trading apps, maybe they were also built on Matplotlib ? 
+In this blog I will show you how to build a technical analysis chart from scratch using Matplotlib. The library is widely used for data visualizations but many might be unaware of how powerful it actually is and we will try to build a professionally looking technical analysis chart for stocks that replicates the quaity of charts you might see on some very modern trading apps, maybe they were also built on Matplotlib ?  
 The official documentation on Matplotlib can be found here: https://matplotlib.org.
+
+
 For the purposes of this blog we will use the SP500 ETF as an example to obtain data. If you don’t have the pandas_datareader library installed yet, start by running the pip install pandas_datareader and pip install mpl_finance . The first library will be used to pull financial data from yahoo and the second is what will allows to build candlesticks on Matplotlib. Next, run the following piece of code to import the necessary libraries:
 
 ![](img/1.png)
