@@ -6,7 +6,7 @@ permalink:  stocks_technical_analysis_chart_data_visualization_with_matplotlib
 ---
 
 
-In -- this blog I will show you how to build a technical analysis chart from scratch using Matplotlib. The library is widely used for data visualizations but many might be unaware of how powerful it actually is and we will try to build a professionally looking technical analysis chart for stocks that replicates the quaity of charts you might see on some very modern trading apps, maybe they were also built on Matplotlib ?  
+In this blog I will show you how to build a technical analysis chart from scratch using Matplotlib. The library is widely used for data visualizations but many might be unaware of how powerful it actually is and we will try to build a professionally looking technical analysis chart for stocks that replicates the quaity of charts you might see on some very modern trading apps, maybe they were also built on Matplotlib ? <br/>
 The official documentation on Matplotlib can be found here: https://matplotlib.org.
 
 
@@ -20,10 +20,8 @@ The next step is to pick our beginning and ending dates for the chart and pull t
 
 With the data now available let’s add some columns to plot by calculating some common technical indicators used in technical analysis:
 
--200 days moving average
-
--MACD – Moveing average Convergence/ Divergence
-
+-200 days moving average<br/>
+-MACD – Moveing average Convergence/ Divergence<br/>
 -RSI – Relative Strength Index
 
 Please note that the purpose of this blog is not to explain how this indicators are used, we are focusing on the technical aspect of building the chart. The following code will add the MVA7 and MVA200 columns to the pandas data frame:
@@ -77,7 +75,7 @@ To prepare for the black backround of the graph we need to change the colors of 
 ![](img/15.png)
 
 
-We can now add lines for our moving average MVA200 and also update the figure and axis lines to pass the facecolor parameter to black and lets also change the size to (18,12) in order to make space for more feature we will be adding.
+We can now add lines for our moving average MVA200 and also update the figure and axis lines to pass the facecolor parameter to black and lets also change the size to (18,12) in order to make space for more feature we will be adding.<br/>
 Replace the initial figure and axis ‘ax’ with the following: 
 
 ![](img/16.png)
