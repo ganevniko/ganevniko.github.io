@@ -5,6 +5,7 @@ date:       2019-09-26 15:56:27 -0400
 permalink:  where_finance_and_technology_meet
 ---
 
+![](img/22.png)
 
 ***“The world will be divided between those who tell machines what to do and those who are told by machines”***
  
