@@ -2,7 +2,7 @@
 layout: post
 title:      "From Finance to Data Science"
 date:       2018-12-13 15:56:27 -0400
-permalink:  where_finance_and_technology_meet
+permalink:  From_Finance_to_Data_Science
 ---
 
 ![](img/22.png)
