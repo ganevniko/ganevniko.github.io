@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Stocks Technical Analysis Chart – Data Visualization with Matplotlib"
-date:       2018-12-13 16:51:58 -0400
+date:       2019-09-24 16:51:58 -0400
 permalink:  stocks_technical_analysis_chart_data_visualization_with_matplotlib
 ---
 
