@@ -7,7 +7,7 @@ permalink:  monte_carlo_simulation_applied_to_portfolio_management
 
 
 
- ## A basic understanding of Monte Carlo simulation
+  <b><u>A basic understanding of Monte Carlo simulation</b></u>
 
 Monte Carlo simulations perform risk analysis by simulating models of possible outcomes according to a chosen probability distribution for a parameter that has an inherent uncertainty. To get a basic understating of how it works we can use a simple example and calculate the area of a circle inside a square with a binary outcome experiment. Let say that we don’t know the value of Pi and want to calculate the area of a circle of diameter of one. We can draw a square around that circle and start randomly plotting dots inside that square. In this case we would be following a uniform distribution for the coordinates of the dots we are plotting. If the dot falls inside the circle we will label it a success and at the end we will estimate the area of the circle by dividing the number of dots inside the square by the total number of dots plotted. 
 
