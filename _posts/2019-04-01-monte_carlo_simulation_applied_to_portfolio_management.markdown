@@ -5,7 +5,7 @@ date:       2019-04-01 17:46:33 -0400
 permalink:  monte_carlo_simulation_applied_to_portfolio_management
 ---
 
-"To reduce risk it is necessary to avoid a portfolio whose securities are all highly correlated with each other. One hundred securities whose returns rise and fall in near unison afford little protection than the uncertain return of a single security."* - Harry Markowitz*
+"To reduce risk it is necessary to avoid a portfolio whose securities are all highly correlated with each other. One hundred securities whose returns rise and fall in near unison afford little protection than the uncertain return of a single security." *- Harry Markowitz*
 
   <b><u>A basic understanding of Monte Carlo simulations
 
