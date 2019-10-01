@@ -59,6 +59,6 @@ This is the resulting Graph:
 
 ![](img/30.png)
 
-This graph shows all the portfolios resulting from the one million randomly generated combinations of weights for our four stocks. For example we can see that there is a very large number of portfolios that will exhibit a risk of 25% but expected returns for these portfolios will range from 21% to 29%. The portfolio with 29% expected return for a level of risk of 25% is located on the white line along with every other portfolio that has the highest expect return for each given level of risk. 
+This graph shows all the portfolios resulting from the one million randomly generated combinations of weights for our four stocks. For example we can see that there is a very large number of portfolios that will exhibit a risk of 25% but expected returns for these portfolios will range from 21% to 29%. The portfolio with 29% expected return for a level of risk of 25% is located on the white line along with every other portfolio that has the highest expect return for each given level of risk. This white line is called the Efficient Frontier.
 
 
