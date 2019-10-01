@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Monte Carlo Simulation applied to Portfolio Management"
-date:       2019-10-01 17:46:33 -0400
+date:       2019-04-01 17:46:33 -0400
 permalink:  monte_carlo_simulation_applied_to_portfolio_management
 ---
 
