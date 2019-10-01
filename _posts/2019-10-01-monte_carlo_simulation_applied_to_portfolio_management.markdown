@@ -21,7 +21,7 @@ As shown above, one million paths give us a very accurate estimate of the areas,
 
 ![](img/23.png)
 
- ## Applying Monte Carlo Portfolio Management
+ <b><u>Applying Monte Carlo Portfolio Management
 
 Now that we have a good basic understanding of how it works, I am sure that calculating the area of a circle or even estimating the value of Pi is not what most people reading this blog are looking to achieve. How can we apply Monte Carlo simulation to Data Science problems? Because of my background I will chose the finance industry to provide an example.
 
