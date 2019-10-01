@@ -16,7 +16,7 @@ All we are going to do is go through a loop of ‘n’ number of paths and for e
 
 ![](img/24.png)
 
-As shown above, one million paths give us a very accurate estimate of the areas, but let’s use matplotlib to have a look at what it took to get there by plotting all the random dots for different values of “n”.
+As shown above, one million paths give us a very accurate estimate of the areas, but let’s use matplotlib to have a look at what it took to get there by plotting all the random dots for different values of the number of paths “n”.
 
 ![](img/23.png)
 
