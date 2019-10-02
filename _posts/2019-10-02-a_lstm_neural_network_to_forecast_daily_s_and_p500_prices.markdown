@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A LSTM neural network to forecast daily S&P500 prices"
-date:       2019-10-02 20:49:19 +0000
+date:       2019-10-02 16:49:20 -0400
 permalink:  a_lstm_neural_network_to_forecast_daily_s_and_p500_prices
 ---
 
@@ -20,16 +20,16 @@ I will use news NewsApi to collect last 30 days’ worth of news for an addition
 
 **Correlated Assets -** Correlated assets as ETFs representing the major industries part of the S&P500 are great candidates for significantly useful feature to predict the target. They are unfortunately likely to generate multicollinearity between the features but that will be fixed while performing dimensionality reduction through PCA. In addition to data from the targeted SPY ETF, I have selected the following ten tickers to extract features from:
 
-* **•	XLF** for Financials
-* **•	EEM** for Emerging Markets
-* **•	XRT** for S&P Retail
-* **•	FXI** for China Large Cap
-* **•	XHB** for S&P Homebuilders (Tracks real estate)
-* **•	TLT** for 20 year Treasury Bond
-* **•	USO** for US Oil Fund
-* **•	DBC** for Commodity Tracking
-* **•	GLD** for Gold
-* **•	QQQ** for Nasdaq 100
+* **XLF** for Financials
+* **EEM** for Emerging Markets
+* **XRT** for S&P Retail
+* **FXI** for China Large Cap
+* **XHB** for S&P Homebuilders (Tracks real estate)
+* **TLT** for 20 year Treasury Bond
+* **USO** for US Oil Fund
+* **DBC** for Commodity Tracking
+* **GLD** for Gold
+* **QQQ** for Nasdaq 100
 
 <b><u>Processing the Data – EDA </u></b>
 
