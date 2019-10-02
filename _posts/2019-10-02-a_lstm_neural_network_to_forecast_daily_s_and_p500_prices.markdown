@@ -40,7 +40,7 @@ Once this news data reorganized in large daily strings, I processed each daily d
 
 The correlated assets data mostly needed de-trending in order to be able to achieve good results while modelling. It was mostly achieved through differencing. Below you can see an example of the data before and after the differencing:
 
-![](img/31)
+![](img/31.png)
 
 Finally, after calculating technical indicators like Relative strength Index (RSI), MACD and moving averages, the data was scaled using Scikit-Learn MinMaxScaler and dimensionality was reduced using PCA from close to one hundred features to thirty features thus preserving 95% of the data variances. The main reason for performing PCA was to eliminate correlation between features because a lot of the indicators we are using are correlated among each other’s.
 
@@ -48,7 +48,7 @@ Finally, after calculating technical indicators like Relative strength Index (RS
 
 **ARIMA:** I first attempted to run an ARIMA model and the result are good but unfortunately not enough to be able to generate profits. Below is a chart of the ARIMA model predictions vs actual price:
 
-![](img/32)
+![](img/32.png)
 
 I decided to use the output of this ARIMA model as an input to my LSTM Neural Network model and basically add it as an additional engineered feature to my dataset besides the technical indicators that engineered previously.
 
@@ -60,7 +60,7 @@ The second issue was how many days to train the data on? I had approximately ten
 
 By plotting the resulting RMSE values, I obtained the following chart: 
 
-![](img/33)
+![](img/33.png)
 
 I first thought that I won’t be able to get much out of it since it is oscillating up and down and there is no trend with a minimum or maximum. But I noticed that between ten and fifteen which corresponds to 600 and 900 days the RMSE remains low and doesn’t increase which lead me to focus on this length of training sets.
 
@@ -70,7 +70,7 @@ I first thought that I won’t be able to get much out of it since it is oscilla
 
 The trading strategy used to back test is very simplistic: we assume the algorithm places a limit order at the predicted prices before the market opens and always sells at market close if filled. In other words, if the open price on a given date is lower than the prediction we buy at open and sell at close. If the open price is higher than the prediction we look at the low for that day, if the low is higher than the prediction the algorithm didn’t trade if the low is lower than the prediction we bought at the predicted price and sold at close. The chart below shows the returns of the model against a buy and hold strategy for October 2018 to September 2019.
 
-![](img/34)
+![](img/34.png)
 
 <b><u>Conclusion</u></b>
 
