@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Web Scraping Yahoo Finance"
-date:       2019-10-03 21:30:27 +0000
+date:       2019-03-27 21:30:27 +0000
 permalink:  web_scraping_yahoo_finance
 ---
 
