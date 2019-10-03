@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Web Scraping Yahoo Finance"
-date:       2019-03-27 21:30:27 +0000
+date:       2019-10-03 17:30:28 -0400
 permalink:  web_scraping_yahoo_finance
 ---
 
@@ -12,7 +12,7 @@ The pages we will be scraping information from for the moment are the following:
 * [https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch](https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch)
 * [https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch](https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch) 
 
-In order to parse the HTML page I will be using Beautiful Soup which is a python package for parsing HTML and XML documents. Documentation about the package can be found here: [https://www.crummy.com/software/BeautifulSoup/bs4/doc/] (https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
+In order to parse the HTML page I will be using Beautiful Soup which is a python package for parsing HTML and XML documents. Documentation about the package can be found here: [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
 I will also need the Urllib package for working with URLs and accessing the HTML we are going to input into beautiful soup for parsing. We will only use urllib.request. Documentation about this package can be found here : [https://docs.python.org/3/library/urllib.request.html#module-urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request).
 
