@@ -5,8 +5,6 @@ date:       2019-02-06 21:11:28 +0000
 permalink:  a_b_testing_on_microsofts_northwind_database
 ---
 
-<u><b>Introduction</b></u>
-
 The Northwind database is a free, open-source dataset created by Microsoft containing data from a fictional company. In my analysis of this database the goal is to practice gathering information from a real-world database and use my knowledge of statistical analysis and hypothesis testing to generate analytical insights that can be of value to the company. The main tools that I will utilize are SQL queries to read the data base, formulating hypothesis and testing statistical significance of the results with various techniques like F-Test through Analysis of Variance (ANOVA) and T-statistics combined with P-Value at default level of significance of 5%. Below is the ERD for the database: 
 
 ![](img/43.png)
