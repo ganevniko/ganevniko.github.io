@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A/B Testing on Microsoft's Northwind Database "
-date:       2019-10-06 21:11:28 +0000
+date:       2019-02-06 21:11:28 +0000
 permalink:  a_b_testing_on_microsofts_northwind_database
 ---
 
