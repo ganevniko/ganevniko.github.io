@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Monitoring Toxic and Hate Speech in Online Comments"
-date:       2019-10-06 23:42:33 -0400
+date:       2019-06-04 23:42:33 -0400
 permalink:  monitoring_toxic_and_hate_speech_in_online_comments
 ---
 
