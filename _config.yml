@@ -5,6 +5,7 @@ header-img: img/home-bg.png
 email: ganevniko@hotmail.com
 copyright_name: Niko G.
 description: > # this means to ignore newlines until "baseurl:"
+“Data really powers everything that we do.” 
   
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
