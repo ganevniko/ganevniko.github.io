@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Logistic Regression Intuition"
-date:       2019-10-12 18:45:26 +0000
+date:       2019-10-12 14:45:26 -0400
 permalink:  logistic_regression_intuition
 ---
 
@@ -18,10 +18,10 @@ Or binary outcome target here is “Does the person repay their loan?”. We hav
 
 Once the inputs are transformed into probabilities, we chose a threshold and say for example if the probability is more than 0.5 it’s labeled ‘Yes’ or one and if it is less than 0.5 it is labeled ‘No’ or zero. In the above formula of the sigmoid function, ‘t’ represents for example the equation from a multiple linear regression.
 
-Multivariate linear regression equation:
+Multivariate linear regression equation:<br>
 ŷ i=Xi1∙w1+Xi2∙w2+Xi3∙w3+...+Xin∙wn
 
-Multivariate logistic regression:
+Multivariate logistic regression:<br>
 P(class=1) = 1/(1+e- ŷ i)  where  ŷ i=Xi1∙w1+Xi2∙w2+Xi3∙w3+...+Xin∙wn
 
 **Cost Function**
