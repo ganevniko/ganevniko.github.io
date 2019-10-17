@@ -62,7 +62,7 @@ By plotting the resulting RMSE values, I obtained the following chart:
 
 ![](img/33.png)
 
-I first thought that I won’t be able to get much out of it since it is oscillating up and down and there is no trend with a minimum or maximum. But I noticed that between ten and fifteen which corresponds to 600 and 900 days the RMSE remains low and doesn’t increase which lead me to focus on this length of training sets.
+I first thought that I won’t be able to get much out of it since it is oscillating up and down and there is no trend with a minimum or maximum. But I noticed that between ten and fifteen which corresponds to 600 and 900 days, the RMSE remains low and doesn’t increase which lead me to focus on this length of training sets.
 
  After retraining the model on 750 days I achieved results that seemed good enough to start implementing a back testing strategy and hope t would be profitable.
 
