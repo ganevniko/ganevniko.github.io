@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Naïve Bayes Intuition"
-date:       2019-10-22 15:54:56 +0000
+date:       2019-10-22 11:54:57 -0400
 permalink:  na_ve_bayes_intuition
 ---
 
