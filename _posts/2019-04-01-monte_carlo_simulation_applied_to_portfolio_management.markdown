@@ -23,7 +23,7 @@ As shown above, one million paths give us a very accurate estimate of the areas,
 
  <b><u>Applying Monte Carlo simulations to  Portfolio Management
 
-Now that we have a good basic understanding of how it works, I am sure that calculating the area of a circle or even estimating the value of Pi is not what most people reading this blog are looking to achieve. How can we apply Monte Carlo simulation to Data Science problems? Because of my background I will chose the finance industry to provide an example.
+Now that we have a good basic understanding of how it works, I am sure that calculating the area of a circle or even estimating the value of PI is not what most people reading this blog are looking to achieve. How can we apply Monte Carlo simulation to Data Science problems? Because of my background I will chose the finance industry to provide an example.
 
  It is well known that the stock market exhibits very high dimensionality due to the almost unlimited number of factors that can affect it which makes it an almost random variable, very difficult to model and predict. One relatively straightforward application of Monte Carlo in finance is optimization of a portfolio of stocks. Portfolios are built based on the Modern Portfolio Theory (MPT) by Harry Markowitz’s groundbreaking, Nobel Prize winning paper “Portfolio Selection” in 1952. 
 
