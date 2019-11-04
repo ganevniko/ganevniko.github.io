@@ -55,7 +55,7 @@ One hot encoding is the main encoding method in ML, it creates a new feature for
 
 ![](img/53.png)
 
-Please note that one of the two columns (male or female) will be dropped before modeling because if the person is not male then she will be female and a second column is not needed.
+Please note that one of the two columns (male or female) will be dropped before modeling because if the person is not male then she will be female by default and a second column is not needed.
 
 
 <b><u>Scaling</u><b>
