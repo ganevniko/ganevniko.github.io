@@ -6,7 +6,7 @@ permalink:  aws_-_using_athena_to_query_data_stored_in_s3
 ---
 
 
-Amazon defines Athena as “an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL”. Unlike other SQL query engines, Athena is limited to files stored in AWS S3 only and is capable of handling a variety of file formats such CSV, JSON, Parquet…
+Amazon defines Athena as “an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL”. Unlike other SQL query engines, Athena is limited to files stored in AWS S3 only and is capable of handling a variety of file formats such as CSV, JSON, Parquet…
 
 ![](img/56.png)
 
