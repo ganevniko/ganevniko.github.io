@@ -14,7 +14,7 @@ When getting a dataset ready to be run through Machine Learning models, the firs
 
 <b>          Dropping<b>
 
-One approach to dealing with the issue of missing values is to drop the rows containing this values. This approach could be acceptable in some circumstances and has its advantages when applicable. Dropping missing values allows the data scientist to avoid introducing incorrect data points into the data set and induce poor modelling results. 
+One approach to dealing with the issue of missing values is to drop the rows containing them. This approach could be acceptable in some circumstances and has its advantages when applicable. Dropping missing values allows the data scientist to avoid introducing incorrect data points into the data set and induce poor modelling results. 
 
 
 <b>          Replacing<b>
