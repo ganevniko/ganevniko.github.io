@@ -54,7 +54,7 @@ We are going to compare the mean quantity on discounted orders in each region to
 
 <u><b>Can we find geographical areas as small as zip codes that order significantly higher total quantity of products</b></u>
 
-Using a t-test again we compare the average total quantity of products ordered per order and per zip code to average quantity per order. Since all the values are statistically significant at a significance level of 5% or less, we can say at that level of confidence that there is no zip code that stands out when it comes to quantity ordered. The zip code level might be too restrictive, too detailed for the analysis, we can try analyzing per city or country.
+Using a t-test again we compare the average total quantity of products ordered per order and per zip code to average quantity per order. Since all the values are statistically significant at a significance level of 5% or less, we can say with that same level of confidence that there is no zip code that stands out when it comes to quantity ordered. The zip code level might be too restrictive, too detailed for the analysis, we can try analyzing per city or country.
 
 
 
