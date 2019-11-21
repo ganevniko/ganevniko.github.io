@@ -50,7 +50,7 @@ Once we have the skeleton ready we can start filling it by looping over the tick
 
 ![](img/41.png)
 
-And the pandas data frame we obtain looks like that:
+And the pandas dataframe we obtain looks like that:
 
 ![](img/42.png)
 
