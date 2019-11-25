@@ -43,7 +43,7 @@ We then move forward to pick our tickers and create the data frame with pandas_d
 
 ![](img/26.png)
 
-Let’s now calculate returns and covariance of these returns as well as create empty list to store data from Monte Carlo simulation and pick the number of paths, in this case one million.
+Let’s now calculate returns and covariance of these returns as well as create an empty list to store data from our Monte Carlo simulation and pick the number of paths, in this case one million.
 
 ![](img/27.png)
 
