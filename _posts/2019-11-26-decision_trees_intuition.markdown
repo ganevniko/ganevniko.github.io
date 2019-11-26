@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Decision Trees Intuition"
-date:       2019-11-26 21:53:57 +0000
+date:       2019-11-26 16:53:58 -0500
 permalink:  decision_trees_intuition
 ---
 
@@ -26,7 +26,7 @@ The Gini criterion (or Gini index) measures measure the chance a specific data p
 
 Entropy is nothing but the measure of disorder and its mathematical formula is as follows: 
 
-![](img/67.png)
+![](img/68.png)
 
 Entropy is generally measured between 0 and 1
 
@@ -34,7 +34,7 @@ Entropy is generally measured between 0 and 1
 
 Information Gain is the change in entropy after the split.
 
-![](img/68.png)
+![](img/67.png)
 
 We simply subtract the entropy of Y given X from the entropy of just Y to calculate the reduction of uncertainty about Y given an additional piece of information X about Y. The greater the reduction in this uncertainty, the more information is gained about Y from X.
 
