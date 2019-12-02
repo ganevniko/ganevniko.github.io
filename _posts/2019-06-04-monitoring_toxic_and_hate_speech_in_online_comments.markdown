@@ -8,9 +8,7 @@ permalink:  monitoring_toxic_and_hate_speech_in_online_comments
 
 This dataset is from the [Toxic Comment Classification competition on Kaggle](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge#description), where participants were challenged to build a model that’s capable of detecting different types of toxicity in online comments such as threats, obscenity, insults, and identity-based hate. The Dataset is a collection of labeled comments from Wikipedia’s talk page edits. I have not yet participated in a real Kaggle competition but it is on my to do list and this was a great opportunity to practice. 
 
-The training data has one hundred and sixty thousand rows and I will be using various types of neural networks to sort out the all kind of toxic ones from the lot. As we can see below the toxic category is the one that is represented the most while threat and identity hate are seen less often but I probably the ones we want to classify the most accurately. 
-
-![](img/46.png)
+The training data has one hundred and sixty thousand rows and I will be using various types of neural networks to sort out the  toxic ones from the lot. The toxic category is the one that is represented the most while threat and identity hate are seen less often but I probably the ones we want to classify the most accurately. 
 
 The first step was to label the non-toxic comments. In order to train the models properly I created an additional column titled “neutral” and label it with a one for every row where all the toxic categories had a zero. 
 
