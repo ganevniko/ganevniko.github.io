@@ -79,4 +79,4 @@ In the following formula of standardization, the mean is shown as μ and the sta
 
 <b><u>Conclusion</u><b>
 
-In this blog we reviewed the most common and popular feature engineering techniques. As a data scientist these techniques are the most common as well as the most complicated and time consuming part of your job, and the decisions made by the data scientist when feature engineering  are crucial to building well-performing machine learning models. In a future blog, I will go over feature engineering techniques specific to time series data as they tend to be more challenging than regular datasets.  
+In this blog we reviewed the most popular feature engineering techniques. As a data scientist these techniques are the most common as well as the most complicated and time consuming part of your job, and the decisions made by the data scientist when feature engineering  are crucial to building well-performing machine learning models. In a future blog, I will go over feature engineering techniques specific to time series data as they tend to be more challenging than regular datasets.  
