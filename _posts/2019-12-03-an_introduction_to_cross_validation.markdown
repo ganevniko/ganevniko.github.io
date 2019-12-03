@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "An Introduction to Cross Validation"
-date:       2019-12-03 21:24:04 +0000
+date:       2019-12-03 16:24:05 -0500
 permalink:  an_introduction_to_cross_validation
 ---
 
