@@ -36,7 +36,7 @@ In K-Folds Cross Validation we split our data into k different subsets (or folds
 
 <b><u>Conclusion</u></b>
 
-That was a short introduction to a very powerful tool which will help you in many situations. It allows you to optimize you model performance by selecting different combinations of train/test splits from your original data. Also keep in mind that the K-Fold cross validation method we referred to in this blog, as most cross validation methods, shuffles the data which is good for most datasets but not all. For example, if you are performing cross validation on time series you cannot shuffle the data and there are specific ways to performance the cross validation that I am planning to discuss in a future blog.  
+That was a short introduction to a very powerful tool which will help you in many situations. It allows you to optimize you model performance by selecting different combinations of train/test splits from your original data. Also keep in mind that the K-Fold cross validation method we referred to in this blog, as most cross validation methods, shuffles the data which is good for most datasets but not all. For example, if you are performing cross validation on time series you can't shuffle the data and there are specific ways to performance the cross validation that I am planning to discuss in a future blog.  
 
 
 
