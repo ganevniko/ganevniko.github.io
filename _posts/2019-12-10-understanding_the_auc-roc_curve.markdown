@@ -21,7 +21,7 @@ Below are the formulas for TPR and FPR as well as an example of two different de
 ![](img/73.png)
 ![](img/74.png)
 
-The first decision boundary is optimized for overall accuracy while the second is prioritizing for recall (identifying as many positive cases) over precision (how many of those predicted positive are actually positive. These visualizations show how moving the decision boundaries is going to affect the TPR and FPR to identify as many of the data points falling under the class that is the most important to us depending on the problem we are solving. 
+The first decision boundary is optimized for overall accuracy while the second is prioritizing for recall (identifying as many positive cases) over precision (how many of those predicted positive are actually positive. These visualizations show how moving the decision boundaries is going to affect the TPR and FPR to identify as many of the data points falling under the class that is the most important to us depending on the problem we are working on. 
 
 And to end this blog lets code an AUC ROC curve in python. 
 
