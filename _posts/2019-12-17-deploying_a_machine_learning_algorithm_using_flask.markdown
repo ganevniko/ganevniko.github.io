@@ -22,7 +22,7 @@ In the next step, we have bounded the API end point with the method predict(). I
 
 ![](img/79.png)
 
-We are now ready to run our application with the .run() function, not that I will pass debug = True to be able to correct any errors as needed without restarting the server every time.  Also note that we use the default port 5000 and if __name __==’__main__’ statement only indicates that we are running the module directly rather than importing it.
+We are now ready to run our application with the .run() function, not that I will pass debug = True to be able to correct any errors as needed without restarting the server every time.  Also note that we use the default port 5000 and if __ name __ ==’__main__’ statement only indicates that we are running the module directly rather than importing it.
 
 ![](img/80.png)
 
