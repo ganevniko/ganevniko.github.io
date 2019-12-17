@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deploying a Machine learning algorithm using Flask"
-date:       2019-12-17 16:57:27 +0000
+date:       2019-12-17 11:57:28 -0500
 permalink:  deploying_a_machine_learning_algorithm_using_flask
 ---
 
