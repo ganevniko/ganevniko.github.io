@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "An overview of  R-Squared"
-date:       2019-12-29 17:37:53 +0000
+date:       2019-12-29 12:37:54 -0500
 permalink:  an_overview_of_r-squared
 ---
 
