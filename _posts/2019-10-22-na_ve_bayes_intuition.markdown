@@ -37,7 +37,9 @@ Finally Naïve Bayes performs well when faced with high dimensions where many ot
 
 <b><u>Disadvantages </u></b>
 
-On the disadvantages side, the Naïve Bayes classification algorithm is thrown off by the zero conditional probability problem, where if one of the terms in the numerator is zero, then the probability will be zero. Also, the algorithm can be tricky to use with continuous features, it only accepts discrete values forcing you to use binning for continuous values which could result in loss of data. And finally, one of the main disadvantages of the Naïve Bayes classification algorithm is Naivety. This mainly comes from the assumption that the features do not depend on each other which is rare when working with real world datasets. 
+On the disadvantages side, the Naïve Bayes classification algorithm is thrown off by the zero conditional probability problem, where if one of the terms in the numerator is zero, then the probability will be zero. Also, the algorithm can be tricky to use with continuous features, it only accepts discrete values forcing you to use binning for continuous values which could result in loss of data. And finally, one of the main disadvantages of the Naïve Bayes classification algorithm is Naivety. This mainly comes from the assumption that the features do not depend on each other which is rare when working with real world datasets.
 
+<b><u>Source </u></b>
 
+[https://medium.com/@Mandysidana/machine-learning-types-of-classification-9497bd4f2e14](https://medium.com/@Mandysidana/machine-learning-types-of-classification-9497bd4f2e14)
 
