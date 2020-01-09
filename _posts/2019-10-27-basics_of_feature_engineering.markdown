@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Basics of feature engineering"
-date:       2019-10-27 22:18:10 +0000
+date:       2019-10-27 18:18:11 -0400
 permalink:  basics_of_feature_engineering
 ---
 
@@ -14,7 +14,7 @@ When getting a dataset ready to be run through Machine Learning models, the firs
 
 <b>          Dropping<b>
 
-One approach to dealing with the issue of missing values is to drop the rows containing them. This approach could be acceptable in some circumstances and has its advantages when applicable. Dropping missing values allows the data scientist to avoid introducing incorrect data points into the data set and induce poor modelling results. 
+One approach to dealing with the issue of missing values is to drop the rows containing this values. This approach could be acceptable in some circumstances and has its advantages when applicable. Dropping missing values allows the data scientist to avoid introducing incorrect data points into the data set and induce poor modelling results. 
 
 
 <b>          Replacing<b>
@@ -55,7 +55,7 @@ One hot encoding is the main encoding method in ML, it creates a new feature for
 
 ![](img/53.png)
 
-Please note that one of the two columns (male or female) will be dropped before modeling because if the person is not male then she will be female by default and a second column is not needed.
+Please note that one of the two columns (male or female) will be dropped before modeling because if the person is not male then she will be female and a second column is not needed.
 
 
 <b><u>Scaling</u><b>
@@ -79,4 +79,9 @@ In the following formula of standardization, the mean is shown as μ and the sta
 
 <b><u>Conclusion</u><b>
 
-In this blog we reviewed the most popular feature engineering techniques. As a data scientist these techniques are the most common as well as the most complicated and time consuming part of your job, and the decisions made by the data scientist when feature engineering  are crucial to building well-performing machine learning models. In a future blog, I will go over feature engineering techniques specific to time series data as they tend to be more challenging than regular datasets.  
+In this blog we reviewed the most common and popular feature engineering techniques. As a data scientist these techniques are the most common as well as the most complicated and time consuming part of your job, and the decisions made by the data scientist when feature engineering  are crucial to building well-performing machine learning models. In a future blog, I will go over feature engineering techniques specific to time series data as they tend to be more challenging than regular datasets.
+
+<b><u>Source</u><b>
+
+
+[https://www.quora.com/Machine-Learning-What-are-the-best-approaches-for-feature-engineering](https://www.quora.com/Machine-Learning-What-are-the-best-approaches-for-feature-engineering)
