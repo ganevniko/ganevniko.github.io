@@ -57,5 +57,9 @@ You are probably wondering when you should stop growing your decision tree. One 
 <b><u>Disadvantages:</u></b>
 
 * Overfitting is very common. 
-* Data fragmentation problem, after each split the set becomes smaller which could induce bias in the model. 
+* Data fragmentation problem, after each split the set becomes smaller which could induce bias in the model.
+
+<b><u>Sources :</u></b>
+
+[https://en.wikipedia.org/wiki/Decision_tree](https://en.wikipedia.org/wiki/Decision_tree)
 
