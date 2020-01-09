@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "An introduction to SQL in Python"
-date:       2019-12-23 08:41:24 +0000
+date:       2019-12-23 03:41:24 -0500
 permalink:  an_introduction_to_sql_in_python
 ---
 
@@ -50,5 +50,10 @@ This query will return the listed columns from the respective tables. Note that 
 
 <b><u>Conclusion</u></b>
 
-I hope this blog was useful in getting started with SQL in Python using sqlite3. SQL is a must know for every data scientist even if you work for a larger company where there is a full time database manager. Also, the queries can get very complicated as you might find out during coding challenges as part of the interviewing process with some companies. 
+I hope this blog was useful in getting started with SQL in Python using sqlite3. SQL is a must know for every data scientist even if you work for a larger company where there is a full time database manager. Also, the queries can get very complicated as you might find out during coding challenges as part of the interviewing process with some companies.
+
+<b><u>Sources</u></b>
+https://medium.com/the-data-logs/basic-sql-for-data-analysis-3c5624d06d3d<br>
+https://en.wikipedia.org/wiki/Database<br>
+https://stackoverflow.com/questions/12770521/reading-from-file-and-passing-value-as-parameter-in-sql/12771135<br>
 
