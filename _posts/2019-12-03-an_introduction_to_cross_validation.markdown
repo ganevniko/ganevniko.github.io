@@ -24,7 +24,7 @@ When building a machine learning model, we split the data into a training datase
 
 ![](img/70.png)
 
-<b><u>Cross-Validation - avoiding both overfitting and underfitting</u></b>
+<b><u>Cross-Validation or how to avoid both overfitting and underfitting</u></b>
 
 Cross validation helps us estimate parameters and model’s quality in general. It allows us to check over-fitting and underfitting. Basically, it helps us determine the right test/train split to use. The concept is fairly simple: we take the data and make experiments where we select some of the data for testing and some for validation and compare the performance before deciding how to split our train and test data. The way we do It is the following:  we split our data into k subsets, and train on k-1 one of those subsets, then we use the testing subset to calculate the performance metrics we have selected like accuracy or recall. There are many different cross validation methods you can use and they are all described on the Scikit-Learn website here: [ https://scikit-learn.org/stable/modules/cross_validation.html](https://scikit-learn.org/stable/modules/cross_validation.html). Let’s describe the most commonly used method: the k-fold cross validation method. 
 
@@ -36,9 +36,11 @@ In K-Folds Cross Validation we split our data into k different subsets (or folds
 
 <b><u>Conclusion</u></b>
 
-That was a short introduction to a very powerful tool which will help you in many situations. It allows you to optimize you model performance by selecting different combinations of train/test splits from your original data. Also keep in mind that the K-Fold cross validation method we referred to in this blog, as most cross validation methods, shuffles the data which is good for most datasets but not all. For example, if you are performing cross validation on time series you can't shuffle the data and there are specific ways to performance the cross validation that I am planning to discuss in a future blog.  
+That was a short introduction to a very powerful tool which will help you in many situations. It allows you to optimize you model performance by selecting different combinations of train/test splits from your original data. Also keep in mind that the K-Fold cross validation method we referred to in this blog, as most cross validation methods, shuffles the data which is good for most datasets but not all. For example, if you are performing cross validation on time series you cannot shuffle the data and there are specific ways to performance the cross validation that I am planning to discuss in a future blog.  
 
+<b><u>Source :</u></b>
 
+[https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
 
 
 
