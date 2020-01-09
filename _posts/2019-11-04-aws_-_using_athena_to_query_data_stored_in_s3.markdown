@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "AWS - Using Athena to query data stored in S3"
-date:       2019-11-04 15:19:59 +0000
+date:       2019-11-04 10:20:00 -0500
 permalink:  aws_-_using_athena_to_query_data_stored_in_s3
 ---
 
 
-Amazon defines Athena as “an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL”. Unlike other SQL query engines, Athena is limited to files stored in AWS S3 only and is capable of handling a variety of file formats such as CSV, JSON, Parquet…
+Amazon defines Athena as “an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL”. Unlike other SQL query engines, Athena is limited to files stored in AWS S3 only and is capable of handling a variety of file formats such CSV, JSON, Parquet…
 
 ![](img/56.png)
 
@@ -45,3 +45,7 @@ Your table is now created and you can run SQL queries on it using Athena as show
 <b><u>Conclusion</u></b>
 
 In this blog we learned how to generate a database of random users in S3 and create an AWS Glue crawler to update this database as needed. We then used Athena to run queries on this database and save them back to S3. 
+
+<b><u>Sources:</u></b>
+
+[https://github.com/awsdocs/aws-glue-developer-guide/blob/master/doc_source/add-crawler.md](https://github.com/awsdocs/aws-glue-developer-guide/blob/master/doc_source/add-crawler.md)
