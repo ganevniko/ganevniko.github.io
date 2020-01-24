@@ -20,5 +20,5 @@ The code below shows how we can use Scikit-Learn to create a bagged tree classif
 
 <b><u>Conclusion</u></b>
 
-In conclusion, bagging allowed us to avoid the major downfalls of decision trees while still enjoying all of their advantages. This significantly improved performance comes at a computational cost. The next step is to build a random forest by choosing a random subset of feature to make it potentially relatively computationally lighter.
+In conclusion, bagging allowed us to avoid the major downfalls of decision trees while still enjoying all of their advantages. But,this significantly improved performance comes at a computational cost. The next step is to build a random forest by choosing a random subset of feature to make it potentially relatively computationally lighter.
 
