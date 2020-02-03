@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Dealing with outliers: an introduction"
-date:       2020-02-03 23:46:39 +0000
+date:       2020-02-03 18:46:40 -0500
 permalink:  dealing_with_outliers_an_introduction
 ---
 
@@ -16,7 +16,7 @@ The red dots are clearly outliers and can easily be identified by visualizing. T
 
 One approach that I like to consider to when I have reason to think that my data is affected by outliers in a multivariate space is Isolation forest. This is an unsupervised learning algorithm that isolates anomalies. Instead of trying to find the trend and exclude the data points that don’t follow it, this algorithm targets finding the data points that are different right away and it is very successful in high dimensional datasets. Below is a piece of code to implement an isolation forest algorithm in Scikit-learn.  
 
-![](img/102.png)
+![](img/103.png)
 
 <b><u>Conclusion:</u></b>
 
