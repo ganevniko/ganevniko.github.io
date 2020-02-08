@@ -12,21 +12,21 @@ In this blog series I will be using a few of the resources discussed in previous
 
 * STEP 1 – Start an AWS EC2 instance and configure ports
 
-<b><u>PART II</b></u>
+<b><u>PART II</u>
 
 * STEP 2 – SSH into the EC2 
 * STEP 3– Install all resources needed on the EC2 instances
 
-<b><u>PART III</b></u>
+<b><u>PART III</u>
 
 * STEP 4- Write our REST-Api 
 * STEP 5 – Write the flask web application and HTML pages
 
-<b><u>PART IV</b></u>
+<b><u>PART IV</u>
 
 * STEP 6 – Test our application and conclusion
 
-<b><u>STEP 1 – Starting an AWS EC2 Instance: </b></u>
+<b><u>STEP 1 – Starting an AWS EC2 Instance: </u>
 
 In this step we will start an Ubuntu server on AWS. In order to do that you will first need to create an AWS account if you don’t already have one. You can do that with the following link [https://aws.amazon.com/console/](https://aws.amazon.com/console/). The signup process will ask for a credit card number but AWS won’t charge you anything for the resources we will be using in this blog as they are part of the free tier program offered to AWS users for the first three months. Please make sure to terminate the EC2 instances after you are done using them to avoid being charged in the future. If you are not sure how to terminate the instances you can reach out to me or just close your account all together.
 
@@ -58,7 +58,7 @@ Select the security group related to your instance and select ‘ Edit inbound r
 
 Great, our EC2 instance is now running and the ports we are going to be using are open. The next step is to SSH into the instance and install python as well as all the other packages we will need. In order to SSH into the EC2 instance I will be using PUTTY. If you have never used PUTTY, start by installing it from [https://www.putty.org/](https://www.putty.org/). 
 
-<b><u>Conclusion: </b></u>
+<b><u>Conclusion: </u>
 
 This concludes the first part of this blog series on how to connect the back end to the front end and fully deploy a data science model or any other app on AWS and make it accessible to anyone. Next week’s blog will be focused on using the PUTTY tool we installed to access our EC2 instance through SSH and install python as well the other packages needed for our apps to run.
 
