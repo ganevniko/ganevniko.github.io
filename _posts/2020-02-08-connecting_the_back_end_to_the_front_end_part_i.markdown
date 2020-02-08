@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Connecting the back end to the front end – PART I"
-date:       2020-02-08 22:59:58 +0000
+date:       2020-02-08 17:59:59 -0500
 permalink:  connecting_the_back_end_to_the_front_end_part_i
 ---
 
 
 In this blog series I will be using a few of the resources discussed in previous blogs and put them all together to show how to deploy two simple flask application on an AWS server and make them communicate with each other to process inputs provided from an end user. The first app will be a flask REST-Api making our processing and calculations on the back end. The second one will be a flask web application serving it to the public as an HTML page. By the end of the blog series you will have a fully deployed web app using an API on the back end to deliver results. The blogs will be broken down as follows:
 
-<b><u>PART I ( this Part) </b></u>
+<b><u>PART I ( this Part) </u>
 
 * STEP 1 – Start an AWS EC2 instance and configure ports
 
