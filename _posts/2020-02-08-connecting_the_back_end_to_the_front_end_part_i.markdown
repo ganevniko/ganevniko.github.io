@@ -47,7 +47,7 @@ After you have selected your instance type, the following screen will ask you to
 
 ![](img/108.png)
 
-The last part of this step one will be to open one port for each of the two apps that we will be deploying on it. I chose ports 3000 and 3001 but you can use different numbers if you like. In order to open the ports go back to the EC2 Dashboard from AWS console and click on ‘Running instances’ to see the list of your active instances as we did before. This time the list should not be empty: you have a running ubuntu server instance.  Click on the security group of the instance you created for this demonstration as shown below:
+The last part of this step one will be to open one port for each of the two apps that we will be deploying on it. I chose ports 3000 and 3001 but you can use different ones if you like. In order to open the ports go back to the EC2 Dashboard from AWS console and click on ‘Running instances’ to see the list of your active instances as we did before. This time the list should not be empty: you have a running ubuntu server instance.  Click on the security group of the instance you created for this demonstration as shown below:
 
 ![](img/109.png)
 
