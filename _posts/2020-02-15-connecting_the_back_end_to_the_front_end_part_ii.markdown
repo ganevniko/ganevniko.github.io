@@ -17,7 +17,7 @@ In the Host Name field, we need to enter the DNS of our EC2 instance which could
 
 ![](img/113.png)
 
-Copy the DNS to your clip board and paste it in the Host name field of the Putty tool. The next step is to provide the path to the access key that was saved in a .pem file when we first launched our EC2 instance. I mentioned in the previous blog that you will need this file to access the instance. Click on the SSH tab in the menu of the Putty tool and then go to Auth and browse to the .pem file. You are now ready to SSH into you instance once you click on open. See below for an illustration of these instructions. 
+Copy the DNS to your clipboard and paste it in the Host name field of the Putty tool. The next step is to provide the path to the access key that was saved in a .pem file when we first launched our EC2 instance. I mentioned in the previous blog that you will need this file to access the instance. Click on the SSH tab in the menu of the Putty tool and then go to Auth and browse to the .pem file. You are now ready to SSH into you instance once you click on open. See below for an illustration of these instructions. 
 
 ![](img/114.png
 
