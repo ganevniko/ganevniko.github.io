@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Connecting the back end to the front end – PART II"
-date:       2020-02-15 22:54:22 +0000
+date:       2020-02-15 17:54:23 -0500
 permalink:  connecting_the_back_end_to_the_front_end_part_ii
 ---
 
@@ -53,7 +53,7 @@ And install flask and flask-restful into it:
 <strong>pip3 install flask</strong><br>
 <strong>pip3 install flask-restful</strong><br>
 
-<b><u>Conclusion</b></u>
+<b><u>Conclusion</u>
 
 In this blog we learned how to access our EC2 instance from windows using the Putty tool and we installed all software need as python and all other packages. We created a virtual environment for our app in the project folder and are now ready to create flask applications and flask restful APIs which we will start doing in the next part.
 
