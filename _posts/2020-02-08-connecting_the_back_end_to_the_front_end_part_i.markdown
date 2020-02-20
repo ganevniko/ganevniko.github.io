@@ -38,7 +38,7 @@ You should now be on your EC2 dashboard showing no running instances. Click on t
 
 ![](img/105.png)
 
-The instance type we will work with is an Ubuntu 16.04 server since it is free tier eligible. This server is a Linux server that we will set up in PART II by accessing through SSH. I will go through each step of the process in details. Here are some screenshots on the next two screens in order to select the appropriate type of server . 
+The instance type we will work with is an Ubuntu 16.04 server since it is free tier eligible. This server is a Linux server that we will set up in PART II by accessing it through SSH. I will go through each step of the process in details. Here are some screenshots on the next two screens in order to select the appropriate type of server . 
 
 ![](img/106.png)
 ![](img/107.png)
