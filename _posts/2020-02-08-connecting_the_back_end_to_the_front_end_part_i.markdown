@@ -24,7 +24,11 @@ In this blog series I will be using a few of the resources discussed in previous
 
 <b><u>PART IV</u>
 
-* STEP 6 – Test our application and conclusion
+* STEP 6- Write the flask web application and HTML pages
+
+<b><u>PART V</u>
+
+* STEP 7 – Test our application and conclusion
 
 <b><u>STEP 1 – Starting an AWS EC2 Instance: </u>
 
@@ -38,7 +42,7 @@ You should now be on your EC2 dashboard showing no running instances. Click on t
 
 ![](img/105.png)
 
-The instance type we will work with is an Ubuntu 16.04 server since it is free tier eligible. This server is a Linux server that we will set up in PART II by accessing it through SSH. I will go through each step of the process in details. Here are some screenshots on the next two screens in order to select the appropriate type of server . 
+The instance type we will work with is an Ubuntu 16.04 server since it is free tier eligible. This server is a Linux server that we will set up in PART II by accessing through SSH. I will go through each step of the process in details. Here are some screenshots on the next two screens in order to select the appropriate type of server . 
 
 ![](img/106.png)
 ![](img/107.png)
@@ -47,7 +51,7 @@ After you have selected your instance type, the following screen will ask you to
 
 ![](img/108.png)
 
-The last part of this step one will be to open one port for each of the two apps that we will be deploying on it. I chose ports 3000 and 3001 but you can use different ones if you like. In order to open the ports go back to the EC2 Dashboard from AWS console and click on ‘Running instances’ to see the list of your active instances as we did before. This time the list should not be empty: you have a running ubuntu server instance.  Click on the security group of the instance you created for this demonstration as shown below:
+The last part of this step one will be to open one port for each of the two apps that we will be deploying on it. I chose ports 3000 and 3001 but you can use different numbers if you like. In order to open the ports go back to the EC2 Dashboard from AWS console and click on ‘Running instances’ to see the list of your active instances as we did before. This time the list should not be empty: you have a running ubuntu server instance.  Click on the security group of the instance you created for this demonstration as shown below:
 
 ![](img/109.png)
 
