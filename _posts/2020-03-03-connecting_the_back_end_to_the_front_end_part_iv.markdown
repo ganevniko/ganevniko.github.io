@@ -12,7 +12,7 @@ This the fourth part of my blog series on how to deploy two simple flask applica
 
 <b><u>The HTML page</u>
 
-I am going to keep very simple here not only because it is not the purpose of the exercise but also because HTML is not my forte. The goal is to cerate the most basic HTML page offering a form that allows our user to enter some inputs. I will just start with a heather “This is our basic front-end user interface.” and then get started with the form. Note that for the form we need to specify the “POST” method and give a name to the data we are looking to collect to we can refer to it by this name later to integrate it in python. In the example below, I called my input “indata”.  
+I am going to keep very simple here not only because it is not the purpose of the exercise but also because HTML is not my forte. The goal is to create the most basic HTML page offering a form that allows our user to enter some inputs. I will just start with a heading “This is our basic front-end user interface.” and then get started with the form. Note that for the form we need to specify the “POST” method and give a name to the data we are looking to collect to we can refer to it by this name later to integrate it in python. In the example below, I called my input “indata”.  
 
 ![](img/122.png)
 
