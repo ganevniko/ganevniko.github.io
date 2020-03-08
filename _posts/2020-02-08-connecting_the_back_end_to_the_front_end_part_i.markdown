@@ -28,7 +28,11 @@ In this blog series I will be using a few of the resources discussed in previous
 
 <b><u>PART V</u>
 
-* STEP 7 – Test our application and conclusion
+* STEP 7 – Testing our Flask REST-API application with Postman and requests
+
+<b><u>PART V</u>
+
+* STEP 8 – Testing our web application and conclusion
 
 <b><u>STEP 1 – Starting an AWS EC2 Instance: </u>
 
