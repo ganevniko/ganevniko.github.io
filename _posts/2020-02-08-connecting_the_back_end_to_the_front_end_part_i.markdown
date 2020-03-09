@@ -30,7 +30,7 @@ In this blog series I will be using a few of the resources discussed in previous
 
 * STEP 7 – Testing our Flask REST-API application with Postman and requests
 
-<b><u>PART V</u>
+<b><u>PART VI</u>
 
 * STEP 8 – Testing our web application and conclusion
 
