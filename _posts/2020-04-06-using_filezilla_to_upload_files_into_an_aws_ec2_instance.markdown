@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using FileZilla to upload files into an AWS EC2 instance"
-date:       2020-04-07 03:09:11 +0000
+date:       2020-04-06 23:09:12 -0400
 permalink:  using_filezilla_to_upload_files_into_an_aws_ec2_instance
 ---
 
