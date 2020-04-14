@@ -14,23 +14,23 @@ The stock scanner will have for purpose to identify tickers that are likely to e
 
 The first step will be to select our start and end date to be used in pandas_datareader  as well as a few sample tickers. I will use the date time library to format my dates. Let’s import the necessary tools:
 
-<img/146.png>
+![](img/146.png)
 
 And select a few sample tickers, I am aware that I have the SPY twice in this list but this might actually be useful for bug testing purposes of my tool.
 
-<img/147.png>
+![](img/147.png)
 
 In order for pandas_datareader to process dates correctly they need to be under the following string format: YYYY-MM-DD. I will use the date to string built in function from the datetime library to achieve that as shown below. Also I will use the time delta function to pick a start date a year in the past. The reason I want my end date to be today is because I want current data and the reason for the start date to be a year prior is because I will be calculating indicators requiring previous data. For example, the two hundred days moving average will require two hundred trading days which is a little over nine months. I rounded it up to a whole year.
 
-<img/148.png>
+![](img/148.png)
 
 We are ready to create our data frame and look at some of the stocks data.
 
-<img/150.png>
+![](img/150.png)
 
 Everything looks good and we can start building some technical indicators data. Let’s start with the easier ones: the moving averages using python built-in function as shown below:
 
-<img/149.png>
+![](img/149.png)
 
 <b><u>Conclusion<u>
 
