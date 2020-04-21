@@ -25,7 +25,7 @@ These methods simply return a list with tickers in them. I will aggregate all th
 
 ![](img/154)
 
-The next step is to save them to a CSV file because we do not want to pull all this data from the internet every time we run the scanner. The tool is already likely to be running pretty slow, which is not an issue since we only need to use it once a day, but we still want to minimize the data we are pulling from online libraries. Below is code I found on stackoverflow ([here]( https://stackoverflow.com/questions/14037540/writing-a-python-list-of-lists-to-a-csv-file) to save your list to a csv library. Note that, the code to create the list will only be used once. As soon as the csv file is created in your app directory you can archive this code.
+The next step is to save them to a CSV file because we do not want to pull all this data from the internet every time we run the scanner. The tool is already likely to be running pretty slow, which is not an issue since we only need to use it once a day, but we still want to minimize the data we are pulling from online libraries. Below is code I found on stackoverflow [here]( https://stackoverflow.com/questions/14037540/writing-a-python-list-of-lists-to-a-csv-file) to save your list to a csv library. Note that, the code to create the list will only be used once. As soon as the csv file is created in your app directory you can archive this code.
 
 ![](img/155)
 
