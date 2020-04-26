@@ -6,11 +6,11 @@ permalink:  options_trading_tool_part_i
 ---
 
 
-In this new project we will be looking at way to screen stock and obtain information on option prices with python. This is only a sort introduction to the new project that I will be building over the next few editions of this blog series. The goal is to build a stock scanner, an option pricing tool and web interface for user to  be able to interact with it and make stock trading decisions.
+In this new project we will be looking at way to screen stocks and obtain information on option prices with python. This is only a short introduction to the new project that I will be building over the next few editions of this blog series. The goal is to build a stock scanner, an option pricing tool and web interface for users to  be able to interact with it and make stock trading decisions.
 
 <b><u>The Stock Scanner<u>
 
-The stock scanner will have for purpose to identify tickers that are likely to exhibit sharp movement in price and be good candidates for placing options trades. I will be using pandas_datareader to pull the stock data and then process it with in house function  I will write on python. These functions will be monitoring technical indicators signaling an upcoming move. The indicators we will use are RSI, sharp changes in volume, prices relative to moving averages and others. <br>
+The stock scanner will have for purpose to identify tickers that are likely to exhibit sharp movement in price and be good candidates for placing options trades. I will be using pandas_datareader to pull the stock data and then process it with in house functions I will write on python. These functions will be monitoring technical indicators signaling an upcoming move. The indicators we will use are RSI, sharp changes in volume, prices relative to moving averages and others. <br>
 
 The first step will be to select our start and end date to be used in pandas_datareader  as well as a few sample tickers. I will use the date time library to format my dates. Let’s import the necessary tools:
 
