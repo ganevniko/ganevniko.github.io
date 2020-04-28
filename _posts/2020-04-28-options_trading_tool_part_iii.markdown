@@ -1,12 +1,13 @@
 ---
 layout: post
 title:      "Options trading tool – PART III"
-date:       2020-04-28 23:25:33 +0000
+date:       2020-04-28 19:25:34 -0400
 permalink:  options_trading_tool_part_iii
 ---
 
 
-This is the third part of our stock scanner project. In this project we are looking at ways to screen stocks and obtain information on option prices with python. In this blog we will use the tickers and data assembly techniques learned in parts one and two to create a data frame with all the technical indicators we are targeting. <br>
+This is the third part of our stock scanner project. In this project we are looking at ways to screen stocks and obtain information on option prices with python. In this blog we will use the tickers and data assembly techniques learned in parts one and two to create a data frame with all the technical indicators we are targeting. 
+
 Lets star by creating out list of tickers as preciously. Below, I have also put together a list of tickers to remove. The reason I am removing these tickers is because pandas_datareader is unable to retrieve information about them which could be caused by several reasons that I will not investigate for the moment. We will still be using close to five hundred tickers which is probably way more that we could invest in.
 
 ![](img/157.png)
@@ -34,7 +35,7 @@ The logic here is to iterate through each ticker of our ticker list and calculat
 
 For the Relative Strength index you will notice that I am calling a function. I do not know of any library or package offering to calculate RSI for you. I have written my own function and back tested it. I will explain how this function works and show the code in a future publication. It can also be found in my SP500 stock prediction project on my github. 
 
-<u><b>Conclusion:</u>
+<u><b>Conclusion:
 
 We have used the techniques shown in the previous parts of this blog series to assemble useful daily data about or tickers. This data will now be used to select which tickers we will be looking at when we want to place option trades. In order to decide how to rank the tickers from most attractive to least attractive I will be implementing a simple points system in the next publication if this blog series. 
 
