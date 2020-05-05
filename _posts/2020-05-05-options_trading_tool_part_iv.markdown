@@ -28,6 +28,7 @@ Now all we need to do is to create a short javascript to displaythe resulting da
 ![](img/165.png)
 
 <b><u>Conclusion:
+  
 In today’s blog we processed all the data accumulated previously and implemented a point system based on technical indicators to screen the tickers and select the ones we want to focus on. We even created an html page showing the table with the winning tickers. We can now start looking at options on these tickers. 
 
 
