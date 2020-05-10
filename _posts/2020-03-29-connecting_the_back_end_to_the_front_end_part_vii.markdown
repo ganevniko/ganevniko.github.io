@@ -29,7 +29,7 @@ Please note that pandas is here used to transform the inputs into a format that 
 
 <b><u>Building the front end API</u>
 
-A few small changes will be needed on the front end. First always make sure that your URLs and ports match the IP address of your servers and that the ports are open. The second change involves naming and making sure all the variables naming correspond. For example we decided to call our inputs “price” and “volume”.
+A few small changes will be needed on the front end. First always make sure that your URLs and ports match the IP address of your servers and that the ports are open. The second change involves naming and making sure all the variables names correspond. For example we decided to call our inputs “price” and “volume”.
 
 ![](img/140.png)
 
