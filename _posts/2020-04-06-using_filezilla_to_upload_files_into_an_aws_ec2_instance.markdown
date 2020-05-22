@@ -28,7 +28,7 @@ In red on this screenshot I have highlighted the fields we will need to fill in 
 
 ![](img/145.png)
 
-Next you have to make sure you are using an open port. For more info refer to Part I of my blog as indicated earlier. Finally you need to indicate the path to the key file to your EC2 instance that was provided by AWS when you first created the server. Explanation about this file are also available in Part I of my blog series on connecting the back end to the front end. You are now ready to access your instance in a Windows type interface. Click connect and you will have access! Congratulations! All you need to do is to navigate to the folder where you want to place a file on your instance and drag the file in it using your mouse as you would to on Windows or Mac. 
+Next you have to make sure you are using an open port. For more info refer to Part I of my blog as indicated earlier. Finally you need to indicate the path to the key file to your AWS EC2 instance that was provided by AWS when you first created the server. Explanation about this file are also available in Part I of my blog series on connecting the back end to the front end. You are now ready to access your instance in a Windows type interface. Click connect and you will have access! Congratulations! All you need to do is to navigate to the folder where you want to place a file on your instance and drag the file in it using your mouse as you would to on Windows or Mac. 
 
 <b><u>Conclusion</u>
 
