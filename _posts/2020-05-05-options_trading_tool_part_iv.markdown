@@ -5,7 +5,7 @@ date:       2020-05-05 23:23:10 +0000
 permalink:  options_trading_tool_part_iv
 ---
 
-This is part four of our stock scanner project. In this project we are looking at ways to screen stocks and obtain information on option prices with python. In this blog we will use the data we collected previously and create with a table that will be served by an HTML page. The HTML page will later put and an AWS S3 bucket to make our results available to the public on a website. 
+This is part four of our options scanner project. In this project we are looking at ways to screen stocks and obtain information on option prices with python. In this blog we will use the data we collected previously and create with a table that will be served by an HTML page. The HTML page will later put and an AWS S3 bucket to make our results available to the public on a website. 
 
 The last step in the previous blog was to iterate through each ticker of our ticker list and calculate every single one of the technical indicators we will be looking for and saving it as value in a dictionary for the ticker itself as a key. We are now going to implement a point system for each one of the technical indicators we calculated previously. I won’t explain detail the points choices from a financial stand point because this is not the purpose of the blog but I will show all the code. For example a ticket that has an RSI over 65 or below 35 gets two points, but them we give an extra point if the RSI is actually over 85 or below 20. Below is the code for all the points I am using so far:
 
