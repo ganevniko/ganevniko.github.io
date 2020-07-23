@@ -6,7 +6,7 @@ permalink:  logistic_regression_intuition
 ---
 
 
-*‘In statistics, the logistic model (or logit model) is used to model the probability of a certain class or event such as pass/fail, win/lose, alive/dead or healthy/sick. This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc... Each object being detected in the image would be assigned a probability between 0 and 1 and the sum adding to one’ - Wikipedia*
+*‘In statistics, the logistic model (or logit model) is used to model the probability of a certain class or event such as pass/fail, win/lose, alive/dead or healthy/sick... This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc... Each object being detected in the image would be assigned a probability between 0 and 1 and the sum adding to one’ - Wikipedia*
 
 In other words logistic regression determines the probability of a data point to be part of a certain class within a binary classification model or a multivariate classification problem.  This model will allow us to solve many problems: how does an additional pound of weight increase chances of a heart attack? How does age influence the probability of having cancer? How does salary influence the probability of repaying debt? And many others.  Let’s take the example of salaries and debt repayment with the following data frame and its visualization: 
 
