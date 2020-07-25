@@ -31,7 +31,7 @@ We are now ready to use the Bayes theorem with the formula presented earlier to 
 
 <b><u>Advantages </u></b>
 
-Some advantages of the Naïve Bayes classification algorithm are that it is fast, and easy to code. This algorithm also works on small datasets with not much information which can make it your go to choice in many situations where you are building new features and don’t have much data yet. The fact that it is also easy to understand will make this classifier your one of you best assets during business presentations in front of non-technical stakeholders.<br> 
+Some advantages of the Naïve Bayes classification algorithm are that it is fast, and easy to code. This algorithm also works on small datasets with not much information which can make it your go to choice in many situations where you are building new features and don’t have much data yet. The fact that it is also very intuitive will make this classifier your one of you best assets during business presentations in front of non-technical stakeholders.<br> 
 Finally Naïve Bayes performs well when faced with high dimensions where many others tend to fail.
 
 
