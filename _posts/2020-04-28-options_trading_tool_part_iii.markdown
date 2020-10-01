@@ -35,7 +35,7 @@ The logic here is to iterate through each ticker of our ticker list and calculat
 
 For the Relative Strength index you will notice that I am calling a function. I do not know of any library or package offering to calculate RSI for you. I have written my own function and back tested it. I will explain how this function works and show the code in a future publication. It can also be found in my SP500 stock prediction project on my github. 
 
-<u><b>Conclusion:
+<u><b>Conclusion
 
 We have used the techniques shown in the previous parts of this blog series to assemble useful daily data about or tickers. This data will now be used to select which tickers we will be looking at when we want to place option trades. In order to decide how to rank the tickers from most attractive to least attractive I will be implementing a simple points system in the next publication if this blog series. 
 
