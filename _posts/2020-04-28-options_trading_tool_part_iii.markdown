@@ -20,7 +20,7 @@ Just as in part one, lets create our moving averages. Note that in the moving av
 
 ![](img/159.png)
 
-The next piece of code I am going to show is quite large. The goal here is to create a dictionary of dictionaries. The keys in our higher level dictionary are the tickers, then for each ticker we are adding a second dictionary containing the values for each one of the technical indicators we want to monitor. <br>
+The next piece of code I am going to show is quite large. The goal here is to create a dictionary of dictionaries. The keys in our higher level dictionary are the tickers, then for each ticker we are adding a second dictionary containing the values for each one of the technical indicators we are monitoring. <br>
 
 The logic here is to iterate through each ticker of our ticker list and calculate every single one of the technical indicators we will be looking for and saving it as value in a dictionary for the ticker itself as a key. Some indicators are:<br>
 * Price
