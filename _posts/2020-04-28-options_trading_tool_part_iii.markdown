@@ -28,7 +28,7 @@ The logic here is to iterate through each ticker of our ticker list and calculat
 * 50 days Moving average
 * 7 days moving average
 * 30 days average volume
-* 10 days average volume
+* 10 days average volume 
 * Relative Strength Index (RSI)
 
 ![](img/160.png)
