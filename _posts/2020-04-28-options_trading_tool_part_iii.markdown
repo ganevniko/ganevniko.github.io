@@ -12,7 +12,7 @@ Lets star by creating out list of tickers as preciously. Below, I have also put 
 
 ![](img/157.png)
 
-The next step is to use pandas_datareader to assemble the data frame we will use for analysis and decision making. This process was explained in detail in part one and as a reminder, the code is below.
+The next step is to use pandas_datareader to assemble the data frame we will use for analysis and decision making. This process was explained in detail in part one and as a reminder, the code is below. 
 
 ![](img/158.png)
 
