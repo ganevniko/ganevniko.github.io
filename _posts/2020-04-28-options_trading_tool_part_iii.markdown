@@ -8,7 +8,7 @@ permalink:  options_trading_tool_part_iii
 
 This is the third part of our stock scanner project. In this project we are looking at ways to screen stocks and obtain information on option prices with python. In this blog we will use the tickers and data assembly techniques learned in parts one and two to create a data frame with all the technical indicators we are targeting. 
 
-Lets star by creating out list of tickers as preciously. Below, I have also put together a list of tickers to remove. The reason I am removing these tickers is because pandas_datareader is unable to retrieve information about them which could be caused by several reasons that I will not investigate for the moment. We will still be using close to five hundred tickers which is probably way more that we could invest in.
+Lets star by creating out list of tickers as preciously. Below, I have also put together a list of tickers to remove. The reason I am removing these tickers is because pandas_datareader is unable to retrieve information about them which could be caused by several reasons that I will not investigate for the moment. We will still be using close to five hundred tickers which is probably way more that we could invest in. 
 
 ![](img/157.png)
 
