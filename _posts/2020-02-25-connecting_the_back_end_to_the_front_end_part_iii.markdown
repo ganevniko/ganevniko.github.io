@@ -11,7 +11,7 @@ If you are moving to this third part right after you have completed the second o
 
 <b><u>source virtenv/bin/activate</u>
 
-We are now ready to start writing the application. I use the command “sudo pico filename.extention” to write a file in the ubuntu server.
+We are now ready to start writing the application. I use the command “sudo pico filename.extention” to write a file in the ubuntu server. 
 
 <b><u>The Rest-Api</u>
 
